@@ -4,6 +4,11 @@ from collections import Counter
 
 class SimpleReport:
     @classmethod
+    def generate_filter_company(cls, file):
+        result = [company["nome_da_empresa"] for company in file]
+        return Counter(result)
+
+    @classmethod
     def generate(cls, file):
         oldest_date = min(item["data_de_fabricacao"] for item in file)
         close_to_expiration = min(
