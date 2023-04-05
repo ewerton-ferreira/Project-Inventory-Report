@@ -1,5 +1,7 @@
 import xmltodict
 from inventory_report.importer.importer import Importer
+# https://python-guide-pt-br.readthedocs.io/pt_BR/latest/scenarios/xml.html
+# https://pypi.org/project/xmltodict/
 
 
 class XmlImporter(Importer):
