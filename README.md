@@ -29,8 +29,11 @@ Neste projeto utilizei a Programação Orientada a Objetos! Implementei um **ger
 
 <details>
     <summary><strong>👨‍💻 Pontos individuais que foram desenvolvidos</strong></summary><br />
+    
 - Criado um novo produto com todos os atributos corretamente preenchidos
+    
 - O método generate da classe SimpleReport e CompleteReport, retornam todas informações do relatório simples ou completo (respectivamente)
+    
 - O método generate da classe SimpleReport e CompleteReport, retornam o formato correto do relatório simples ou completo (respectivamente)
 
 - Ao importar um arquivo CSV, JSON ou XML, retorna o relatórios simples ou o completo conforme solicitado
