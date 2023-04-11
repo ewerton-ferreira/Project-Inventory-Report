@@ -5,7 +5,7 @@ Aqui você vai encontrar os detalhes de como estruturei e desenvolvi o projeto.
 <details>
   <summary><strong>👨‍💻 O que foi desenvolvido</strong></summary><br />
     
-    Neste projeto utilizei a Programação Orientada a Objetos! Implementei um **gerador de relatórios** que recebe como entrada arquivos com dados de um estoque e gera, como saída, um relatório acerca destes dados.
+Neste projeto utilizei a Programação Orientada a Objetos! Implementei um **gerador de relatórios** que recebe como entrada arquivos com dados de um estoque e gera, como saída, um relatório acerca destes dados.
 
   Esses dados de estoque poderão ser obtidos de diversas fontes:
 
@@ -29,17 +29,17 @@ Aqui você vai encontrar os detalhes de como estruturei e desenvolvi o projeto.
 
 <details>
     <summary><strong>👨‍💻 Pontos individuais que foram desenvolvidos</strong></summary><br />
-* - Criado um novo produto com todos os atributos corretamente preenchidos
-* - O método generate da classe SimpleReport e CompleteReport, retornam todas informações do relatório simples ou completo (respectivamente)
-* - O método generate da classe SimpleReport e CompleteReport, retornam o formato correto do relatório simples ou completo (respectivamente)
+- Criado um novo produto com todos os atributos corretamente preenchidos
+- O método generate da classe SimpleReport e CompleteReport, retornam todas informações do relatório simples ou completo (respectivamente)
+- O método generate da classe SimpleReport e CompleteReport, retornam o formato correto do relatório simples ou completo (respectivamente)
 
-* - Ao importar um arquivo CSV, JSON ou XML, retorna o relatórios simples ou o completo conforme solicitado
+- Ao importar um arquivo CSV, JSON ou XML, retorna o relatórios simples ou o completo conforme solicitado
 
-* - As classes estratégicas CsvImporter, JsonImporter e CsvImporter retornam os dados dos produtos em uma lista
+- As classes estratégicas CsvImporter, JsonImporter e CsvImporter retornam os dados dos produtos em uma lista
 
-* - O retorno padrão de um objeto Product é um relatório sobre ele
+- O retorno padrão de um objeto Product é um relatório sobre ele
 
-* - Ao retornar o relatório, o mesmo vem devidamente colorido
+- Ao retornar o relatório, o mesmo vem devidamente colorido
 
     <strong>📌💻 Pontos individuais que foram validados</strong><br />
 * Foi validado que a instancia de InventoryRefactor é iterável (Iterable)
