@@ -7,6 +7,10 @@ class InventoryIterator(Iterator):
         self.index = 0
 
     def __next__(self):
-        next = self.data[self.index]
-        self.index += 1
-        return next
+        try:
+            next = self.data[self.index]
+        except IndexError:
+            raise StopIteration()
+        else:
+            self.index += 1
+            return next
